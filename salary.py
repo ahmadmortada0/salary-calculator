@@ -35,3 +35,5 @@ for i in range(2):
          print (f"the anual amount of rent is {yearly_rent}")
     else:
          print (f"the anual amount of electricty is {yearly_elec}")
+salary_dream=pow(salary_amount,2)
+print(f"the salary would be = {salary_dream} ;)")
