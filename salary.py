@@ -50,22 +50,58 @@ if choose == 1:
         print("You dont have enough money for savings ")
 
 
-
-while i==0:
-    display = input("If you want to display all the infos now please press 1 :")
-    print(f"the details for {salary_month} ")
-    print("1 for salary before taxs")
-    print("2 for salary after taxs")
-    print("3 for savings amount")
-    print("4 for electricity amount ")
-    print ("6 for rent amount")
-    print ("7 for taxs amount")
-    print ("8 for rent and electricty for a year")
-    print ("9 for salary power 2")
-    print ("10 for saving before additional")
-    print ("11 for all")
-    print ("0 for quit")
+detail =-1
+while detail !=0:
+    display = int(input("If you want to display all the infos now please press 1 :"))
+    if display==1:
+        print(f"the details for {salary_month} ")
+        print("1 for salary before taxs")
+        print("2 for salary after taxs")
+        print("3 for savings amount")
+        print("4 for electricity amount ")
+        print ("5 for rent amount")
+        print ("6 for taxs amount")
+        print ("7 for rent and electricty for a year")
+        print ("8 for salary power 2")
+        print ("9  for saving before additional")
+        print ("10 for all")
+        print ("0 for quit")
+        detail=int(input("choose a number to display :"))
+        if detail ==1:
+            print (f"the salary before tax is = {salary_amount}")
+        elif detail==2:
+            print (f"the salary after tax is = {remainder} and without the additional saving is = {remainder+extra}")
+        elif detail==3:
+            print (f"the savings is = {savings_amount}")
+        elif detail==4:
+            print (f"the electricty is = {electricty_amount}")
+        elif detail==5:
+            print (f"the rent is = {rent_amount}")
+        elif detail==6:
+            print (f"the tax total is = {total}")
+        elif detail==7:
+            print (f"the annualy for rent  is = {yearly_rent} and for electricity is = {yearly_elec}")
+        elif detail==8:
+            print (f"the salary power 2  is = {salary_dream}")
+        elif detail==9:
+            print (f"the savings before additional saves  is = {savings_amount-extra}")
+        elif  detail==10:
+            print (f"the salary before tax is = {salary_amount}")
+            print (f"the salary after tax is = {remainder} and without the additional saving is = {remainder+extra}")
+            print (f"the savings is = {savings_amount}")
+            print (f"the electricty is = {electricty_amount}")
+            print (f"the rent is = {rent_amount}")
+            print (f"the tax total is = {total}")
+            print (f"the annualy for rent  is = {yearly_rent} and for electricity is = {yearly_elec}")
+            print (f"the salary power 2  is = {salary_dream}")
+            print (f"the savings before additional saves  is = {savings_amount-extra}")
+        else :
+            print ("we are finished here ")
+            detail=0
     
+        
+      
+        
 
 
 
