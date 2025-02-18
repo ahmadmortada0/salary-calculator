@@ -51,4 +51,23 @@ if choose == 1:
 
 
 
+while i==0:
+    display = input("If you want to display all the infos now please press 1 :")
+    print(f"the details for {salary_month} ")
+    print("1 for salary before taxs")
+    print("2 for salary after taxs")
+    print("3 for savings amount")
+    print("4 for electricity amount ")
+    print ("6 for rent amount")
+    print ("7 for taxs amount")
+    print ("8 for rent and electricty for a year")
+    print ("9 for salary power 2")
+    print ("10 for saving before additional")
+    print ("11 for all")
+    print ("0 for quit")
+    
+
+
+
+
 
